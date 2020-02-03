@@ -1,0 +1,79 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dadada;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  width: 100%;
+  font-size: 32px;
+  margin: 5px 30px 30px 5px;
+  padding: 10px 175px 175px 10px
+  text-align: center;
+  text-transform: capitalize;
+  line-height: normal;
+}
+
+h2 {
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  font-weight: italic;
+  font-size: 16px;
+  padding: 20px;
+  text-align: center;
+  float: none;
+  margin: auto;
+}
+
+ .baku {
+  background-color: #ffffff;
+  background-image: url("C:\Users\Victoria\Downloads\css-exercise-four\images\baku.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+ }
+
+ .london {
+  background-color: #ffffff;
+  background-image: url("C:\Users\Victoria\Downloads\css-exercise-four\images\london.png");
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+
+ .madrid {
+  background-color: #ffffff;
+  background-image: url("C:\Users\Victoria\Downloads\css-exercise-four\images\madrid.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+
+ .rome {
+  background-color: #ffffff;
+  background-image: url("C:\Users\Victoria\Downloads\css-exercise-four\images\rome.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+
+/* code added to create two-column design */
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+
+  /* code added to create four-column design */
+@media screen and (min-width: 991px){
+  div {
+    margin: 5px;
+    width: 140px;
+  }
+
+  .container {
+    margin: 50px auto;
+    width: 80%;
+    align-items: center;
+  }
+}
