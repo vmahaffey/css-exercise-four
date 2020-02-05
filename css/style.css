@@ -31,28 +31,28 @@ h2 {
 
  .baku {
   background-color: #ffffff;
-  background-image: url("C:\Users\Victoria\Downloads\css-exercise-four\images\baku.jpg");
+  background-image: url("../images/baku.jpg");
   background-position: top;
   background-repeat: no-repeat;
  }
 
  .london {
   background-color: #ffffff;
-  background-image: url("C:\Users\Victoria\Downloads\css-exercise-four\images\london.png");
+  background-image: url(../images/london.png");
   background-position: center;
   background-repeat: no-repeat;
  }
 
  .madrid {
   background-color: #ffffff;
-  background-image: url("C:\Users\Victoria\Downloads\css-exercise-four\images\madrid.jpg");
+  background-image: url("../images/madrid.jpg");
   background-position: center;
   background-repeat: no-repeat;
  }
 
  .rome {
   background-color: #ffffff;
-  background-image: url("C:\Users\Victoria\Downloads\css-exercise-four\images\rome.jpg");
+  background-image: url("../images/rome.jpg");
   background-position: center;
   background-repeat: no-repeat;
  }
