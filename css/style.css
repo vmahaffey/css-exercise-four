@@ -13,7 +13,7 @@ h1 {
   width: 100%;
   font-size: 32px;
   margin: 5px 30px 30px 5px;
-  padding: 10px 175px 175px 10px
+  padding: 10px 175px 175px 10px;
   text-align: center;
   text-transform: capitalize;
   line-height: normal;
@@ -54,20 +54,33 @@ h2 {
 /* code added to create two-column design */
 @media screen and (min-width: 575px){
    div {
-    margin: 1%;
-    width: 48%;
+     height: 45%; 
+     width: 45%;
+     display: inline-block;
+     margin: 10px;
   }
+  
+  .container {
+    margin: 50px auto;
+    width: 75%;
+    align-items: center;
+  }
+
+}
 
   /* code added to create four-column design */
 @media screen and (min-width: 991px){
   div {
-    margin: 5px;
-    width: 140px;
+    height: auto;
+    width: 22%;
+    display: inline-block;
+    margin: 10px;
   }
-
+  
   .container {
     margin: 50px auto;
     width: 80%;
     align-items: center;
   }
+  
 }
